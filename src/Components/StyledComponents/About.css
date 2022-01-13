@@ -1,0 +1,8 @@
+.about {
+  padding: 5% 0;
+}
+.about img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}

@@ -1,0 +1,51 @@
+.icons a:hover {
+  color: #be0100;
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  transform-origin: bottom;
+}
+.contact .icons .text {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.icons a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .home .icons {
+    left: -4%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home .icons {
+    position: relative;
+    display: hide;
+  }
+  .text {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .home .icons svg {
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    transition: 0.3s;
+  }
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.contact {
+  padding: 5% 0;
+}
+.form-control {
+  border-style: none !important;
+  border-bottom: 1px solid grey !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+}
+.textBox {
+  display: grid;
+  place-items: center;
+}
+@media screen and (max-width: 450px) {
+  .contact .icons svg {
+    height: 35px;
+    width: 35px;
+  }
+}

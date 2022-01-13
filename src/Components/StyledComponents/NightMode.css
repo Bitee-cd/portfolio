@@ -1,0 +1,15 @@
+.nightMode {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+}
+.nightMode svg {
+  height: 25px;
+  width: 25px;
+}
+@media screen and (max-width: 450px) {
+  .nightMode svg {
+    height: 20px;
+    width: 20px;
+  }
+}

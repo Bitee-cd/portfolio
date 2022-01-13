@@ -1,0 +1,10 @@
+.navbar-light .navbar-toggler {
+  border-style: none;
+}
+.navbar-light .navbar-toggler-icon {
+  height: 20px;
+  width: 20px;
+}
+.offcanvas-start {
+  width: 300px !important;
+}

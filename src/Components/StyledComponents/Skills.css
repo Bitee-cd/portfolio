@@ -1,0 +1,18 @@
+.skillIcons svg {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+  transition: 0.3s;
+  color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .skillIcons svg {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+  }
+  .skills .col {
+    font-size: 12px;
+  }
+}

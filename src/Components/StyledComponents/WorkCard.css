@@ -1,0 +1,39 @@
+.card {
+  height: 100%;
+}
+.workCard a svg {
+  height: 30px;
+  width: 30px;
+}
+.workCard a {
+  text-decoration: none;
+  color: black;
+}
+.workCard a:hover {
+  transform: scale(1.01);
+  color: black;
+  cursor: pointer;
+}
+.workCard a svg:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: black;
+  opacity: 0.8;
+}
+input:focus,
+button:focus,
+textarea {
+  outline: none !important;
+  border: 0px;
+}
+input.middle:focus {
+  outline-width: 0;
+}
+@media screen and (max-width: 450px) {
+  .workCard .btn {
+    padding: 2px;
+  }
+  .workCard {
+    margin: 10px 0;
+  }
+}
