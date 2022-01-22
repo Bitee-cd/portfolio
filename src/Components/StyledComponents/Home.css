@@ -14,9 +14,7 @@ span {
   font-weight: 900 !important;
   transition: 0.7s !important;
 }
-.home .btn:hover {
-  background-color: #be0100 !important;
-}
+
 .home .icons svg {
   height: 50px;
   width: 50px;
@@ -54,5 +52,8 @@ span {
   .home .icons svg {
     height: 40px;
     width: 40px;
+  }
+  .icons .text {
+    padding: 20%;
   }
 }

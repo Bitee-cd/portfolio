@@ -5,6 +5,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillPhone } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { HiLocationMarker } from 'react-icons/hi';
+import './StyledComponents/Footer.css';
 
 function Footer() {
     return (
@@ -14,7 +15,6 @@ function Footer() {
                     
                         copyright © 2022<br></br>
                         <div className="mx-3">BIT33</div>
-                        
                         <a href="https://github.com/Bitee-cd" className="navbar-brand"><AiFillGithub/></a>
                         <a href="https://www.linkedin.com/in/caleb-duniya-4a5751202/"  className="navbar-brand"><AiFillLinkedin /></a>
                         <a href="https://twitter.com/CalebBitiyong?s=09"  className="navbar-brand"><BsTwitter  /></a>

@@ -1,5 +1,4 @@
 import React from 'react'
-import {  Link } from "react-router-dom";
 import './StyledComponents/Home.css'
 import profile from "../images/profile icon.png"
 import Icons from './Icons'
@@ -27,7 +26,7 @@ function Home() {
                        <p>a</p><h6>FRONT-END WEB DEVELOPER</h6>
                        
                        <a
-                       className="btn btn-outline-danger"
+                       className="btn btn-outline-dark"
                         href={resume}
                          download>
                            <FaCloudDownloadAlt/>  Download CV

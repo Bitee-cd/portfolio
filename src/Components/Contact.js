@@ -36,10 +36,18 @@ function Contact() {
     return (
         <div className="contact container">
             <div className="row">
-                <div className="col-12 col-md-7">
-                    <div className="titleBox">
-                        <h2><span>Send me a Message</span></h2>
-                    </div>
+
+                <div className="col-12 col-md-5 textBox">
+                        <div>
+                        <h2><span>Get in Touch</span></h2>
+                            <p>Do you want to hire me?
+                                <br></br> Send me a message</p>
+                        </div>
+                        
+                    
+                </div>
+                <div className="col-12 col-md-7 messageBox">
+                    
             <Form  ref={form} onSubmit={sendEmail}> 
                
                 <Row className="mb-3">
@@ -79,13 +87,9 @@ function Contact() {
                         />
                     </FloatingLabel>
                 </Row>  
-                <input type="submit" value="Send" className="btn btn-outline-danger" ></input>
+                <input type="submit" value="Send message" className="btn btn-outline-dark mt-3" ></input>
             </Form>
                 </div>  
-            <div className="col-12 col-md-5 textBox">
-          
-                
-            </div>
             </div>
         </div>
     )

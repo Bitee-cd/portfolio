@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+  .footer h2 {
+    font-size: 15px;
+  }
+  .footer p,
+  .footer a,
+  .footer div {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .contact .textBox,
+  .contact .messageBox {
+    margin: 10% 0;
+  }
+}
