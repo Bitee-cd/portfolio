@@ -1,6 +1,6 @@
 import React from 'react'
 import './StyledComponents/Skills.css'
-import { FaBootstrap, FaGitAlt, FaGithub, FaHtml5, FaReact} from 'react-icons/fa';
+import { FaBootstrap, FaGitAlt, FaGithub, FaHtml5, FaReact,FaPhp} from 'react-icons/fa';
 import { DiCss3, DiResponsive} from 'react-icons/di';
 import { AiFillMacCommand} from 'react-icons/ai';
 import { SiFirebase, SiJavascript, SiJquery, SiVisualstudiocode} from 'react-icons/si';
@@ -63,6 +63,10 @@ function Skills() {
                     <div className="col">
                     <DiResponsive/><br></br>
                     RESPONSIVE DESIGN
+                    </div>
+                    <div className="col">
+                    <FaPhp/><br></br>
+                    PHP
                     </div>
                     
                 </div>   

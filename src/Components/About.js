@@ -31,7 +31,7 @@ function About() {
                   <div className="col-6 imageBox">
                       <img src="https://image.freepik.com/free-vector/programmer-concept-illustration_114360-2923.jpg"alt=""className="img-fluid" />
                   </div>
-                  <div className=" col-6">
+                  <div className="col-12 col-md-6">
                       
                       <div className="text-wrap" >
                             <p >I am Caleb Bitiyong Duniya, a self-taught 
@@ -52,15 +52,15 @@ function About() {
                       <div className="title">
                               
                               <div className="row">
-                                    <p className="col-3">Hobbies</p>   
-                                    <div className="contentBox col-3">
+                                    <p className="col-3">Hobbies :</p>   
+                                    <div className="contentBox col-6">
                                         {page===1? <p>Playing football</p>
                                         :page===2?<p>Dancing</p>
                                         :page===3?<p>Listening to music</p>
                                         :page===4?<p>playing Video games</p>
                                         :<p>watching movies</p>}
                                     </div>
-                                    <div className="col-6">
+                                    <div className="col-3">
                                     {page===1? <img src={football} class="img-fluid circle "></img>
                                         :page===2?<img src={dance} class="img-fluid circle "></img>
                                         :page===3?<img src={music} class="img-fluid circle "></img>
