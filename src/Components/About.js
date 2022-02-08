@@ -8,6 +8,7 @@ import dance from "../images/dance.png"
 import music from "../images/music.png"
 import game from "../images/game.png"
 import movie from "../images/movie.png"
+import about from "../images/about.png"
 import Typewriter from 'typewriter-effect';
 
 function About() {
@@ -20,15 +21,17 @@ function About() {
   return (
       <div className="about">
           <div className="container">
-              <div className="row">
-                  <div className=" col-12">
-                    
-                     <Typewriter
+              <div className="row mt-3">
+              <Typewriter
                             onInit={(typewriter) => {
                                 typewriter.typeString('A Little Bit About Me!')
                                 .start();
                             }}
                             />
+                  <div className="col-6 imageBox">
+                      <img src="https://image.freepik.com/free-vector/programmer-concept-illustration_114360-2923.jpg"alt=""className="img-fluid" />
+                  </div>
+                  <div className=" col-6">
                       
                       <div className="text-wrap" >
                             <p >I am Caleb Bitiyong Duniya, a self-taught 
@@ -46,29 +49,28 @@ function About() {
                             tasks amongst members and engaged in debugging activities with other interns during my internship  
 
                       </p>
-                      <p>I am now seeking the opportunity to advance my career as a Frontend Developer,  with learning and developing my career by working with seasoned professionals while being productive in any given capacity</p>
-                      
-                  </div>
-
-                  <div className="col-12 col-md-3">
-                      <div className="row">
-                          <div className="title">
-                              <h4>Things I enjoy doing</h4>
+                      <div className="title">
+                              
+                              <div className="row">
+                                    <p className="col-3">Hobbies</p>   
+                                    <div className="contentBox col-3">
+                                        {page===1? <p>Playing football</p>
+                                        :page===2?<p>Dancing</p>
+                                        :page===3?<p>Listening to music</p>
+                                        :page===4?<p>playing Video games</p>
+                                        :<p>watching movies</p>}
+                                    </div>
+                                    <div className="col-6">
+                                    {page===1? <img src={football} class="img-fluid circle "></img>
+                                        :page===2?<img src={dance} class="img-fluid circle "></img>
+                                        :page===3?<img src={music} class="img-fluid circle "></img>
+                                        :page===4?<img src={game} class="img-fluid circle "></img>
+                                        :<img src={movie} class="img-fluid circle "></img>}
+                                    </div>
+                              </div>
+                              
                           </div>
-                                  {page===1? <img src={football} class="img-fluid circle "></img>
-                                  :page===2?<img src={dance} class="img-fluid circle "></img>
-                                  :page===3?<img src={music} class="img-fluid circle "></img>
-                                  :page===4?<img src={game} class="img-fluid circle "></img>
-                                  :<img src={movie} class="img-fluid circle "></img>}
-                          
-                              <div className="contentBox">
-                                  {page===1? <h4>Playing football</h4>
-                                  :page===2?<h4>Dancing</h4>
-                                  :page===3?<h4>Listening to music</h4>
-                                  :page===4?<h4>playing Video games</h4>
-                                  :<h4>watching movies</h4>}
-                              </div>   
-                      </div>        
+                          <p>I am now seeking the opportunity to advance and develop my career by working with seasoned professionals while being productive in any given capacity</p>
                   </div>
               </div>
           </div>
