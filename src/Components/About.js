@@ -1,14 +1,12 @@
 
-import {  Link } from "react-router-dom";
+
 import React, {useState, useEffect} from 'react'
-import Icons from './Icons';
 import './StyledComponents/About.css'
 import football from "../images/football.png"
 import dance from "../images/dance.png"
 import music from "../images/music.png"
 import game from "../images/game.png"
 import movie from "../images/movie.png"
-import about from "../images/about.png"
 import Typewriter from 'typewriter-effect';
 
 function About() {
@@ -61,11 +59,11 @@ function About() {
                                         :<p>watching movies</p>}
                                     </div>
                                     <div className="col-3">
-                                    {page===1? <img src={football} class="img-fluid circle "></img>
-                                        :page===2?<img src={dance} class="img-fluid circle "></img>
-                                        :page===3?<img src={music} class="img-fluid circle "></img>
-                                        :page===4?<img src={game} class="img-fluid circle "></img>
-                                        :<img src={movie} class="img-fluid circle "></img>}
+                                    {page===1? <img src={football} class="img-fluid circle " alt="nil"></img>
+                                        :page===2?<img src={dance} class="img-fluid circle " alt="nil"></img>
+                                        :page===3?<img src={music} class="img-fluid circle " alt="nil"></img>
+                                        :page===4?<img src={game} class="img-fluid circle " alt="nil"></img>
+                                        :<img src={movie} class="img-fluid circle " alt="nil"></img>}
                                     </div>
                               </div>
                               
