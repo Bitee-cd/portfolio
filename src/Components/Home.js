@@ -35,7 +35,7 @@ function Home() {
       
                     </div>
                     <div className="col-12 col-md-4 rightBox">
-                    <img src={profile} class="img-fluid circle "></img>
+                    <img src={profile} class="img-fluid circle " alt="nil"></img>
                    
                     </div>
                 </div>
