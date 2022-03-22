@@ -24,12 +24,12 @@ span {
 .home .icons {
   position: absolute;
   top: 10%;
-  left: -2%;
+  left: -3%;
 }
 .icons .text {
   display: flex;
   flex-direction: column;
-  padding: 20% 10%;
+  padding: 20% 15%;
 }
 .icons .text h2 {
   font-size: 15px;
