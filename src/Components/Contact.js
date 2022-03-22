@@ -50,7 +50,7 @@ function Contact() {
                             id="floatingInputCustom"
                             type="text"
                             placeholder="your name"
-                            type='text'
+                        
                             name="user_name"
                             />
                             <label htmlFor="floatingInputCustom">Name</label>
