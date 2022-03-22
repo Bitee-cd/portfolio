@@ -37,14 +37,14 @@ function About() {
                       </p>
                       </div>
                       
-                      <p>I initially began to code during my third year in the university although i have taken programming courses prior to this as it was part of my syllabus.
-                          As someone who is curious and likes to learn new things, i jumped straight in, learning was an interesting and challenging experience.
-                          I had to go on break for a while to focus on my studies.<br></br>
-                          Fast forward to July 2021 after my graduation(first class honors B.Eng Mechanical Engineering 😉), I participated in KodeCamp internship which ended in December 2021 and also SideHustle internship which
-                          lasted for just 6 weeks, specialising in frontend track(HTML,CSS, JavaScript and ReactJs). I Collaborated with product team members to implement new
-                            feature developments,worked in groups to build and deliver highly functional web
-                            applications,worked as Team Leader; delegated, assigned and supervised
-                            tasks amongst members and engaged in debugging activities with other interns during my internship  
+                      <p>My coding journey began during my third year at the university though I had already taken programming courses prior as it was part of my syllabus.
+                          Being someone who is naturally curious and passionate about learning new things really came in handy as it helped me dive head first and of course learning was as interesting and challenging as it gets.
+                          Juggling programming and school work was more than daunting during my final year but my hardworking and resilient nature was what kept me going.<br></br>
+                          Fast forward to July 2021 after my graduation(first class honors B.Eng Mechanical Engineering 😉), I earned a certificate after completing my KodeCamp internship and another for a SideHustle internship where I
+                          specialized in frontend track(HTML,CSS, JavaScript and ReactJs). I Collaborated with team members to implement new
+                            feature developments where we worked in groups to build and deliver highly functional web applications.
+                            As a team leader I delegated, assigned and supervised tasks amongst members and engaged in debugging activities with other interns during my internship.
+                            This experience really highlighted my love for team work and leadership roles as "the team spirit" has always been my forte.  
 
                       </p>
                       <div className="title">
