@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Container,  Offcanvas, Nav } from 'react-bootstrap'
+import { Navbar, Container,  Nav } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './StyledComponents/Navigation.css'
 
