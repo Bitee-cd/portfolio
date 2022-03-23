@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { Form, Row,  FloatingLabel } from 'react-bootstrap'
-import { Form, Row, FloatingLabel } from 'react-bootstrap'
 import './StyledComponents/Contact.css'
 import Swal from 'sweetalert2';
 
