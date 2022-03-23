@@ -6,7 +6,7 @@ import './StyledComponents/Navigation.css'
 function Navigation() {
     return (
         <div>
-            <Navbar className="shadow"  expand="lg">
+            <Navbar className="shadow" collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Brand href="#">BIT33</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
