@@ -19,7 +19,7 @@ function Navigation() {
                             <Link  className="nav-link" to="contact">Contact</Link>
                     </Nav>
                     </Navbar.Collapse>
-                    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                    
                    
                 </Container>
             </Navbar>
