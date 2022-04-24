@@ -1,20 +1,13 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { Form, Row, Col, FloatingLabel } from 'react-bootstrap'
-import { AiOutlineArrowRight } from 'react-icons/ai'
+import { Form, Row,  FloatingLabel } from 'react-bootstrap'
 import './StyledComponents/Contact.css'
 import Swal from 'sweetalert2';
 
 
-
-const SERVICE_ID = "service_hhu06t9";
-const TEMPLATE_ID = "template_24th4tc";
-const USER_ID = "user_JExhEkHR2XNrkVFWngsFl";
-
 function Contact() {
 
     const form = useRef();
-
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -57,7 +50,7 @@ function Contact() {
                             id="floatingInputCustom"
                             type="text"
                             placeholder="your name"
-                            type='text'
+                        
                             name="user_name"
                             />
                             <label htmlFor="floatingInputCustom">Name</label>

@@ -3,7 +3,7 @@ import './StyledComponents/Skills.css'
 import { FaBootstrap, FaGitAlt, FaGithub, FaHtml5, FaReact,FaPhp} from 'react-icons/fa';
 import { DiCss3, DiResponsive} from 'react-icons/di';
 import { AiFillMacCommand} from 'react-icons/ai';
-import { SiFirebase, SiJavascript, SiJquery, SiVisualstudiocode} from 'react-icons/si';
+import { SiFirebase, SiJavascript, SiJquery, SiVisualstudiocode,SiTailwindcss} from 'react-icons/si';
 
 
 
@@ -67,6 +67,10 @@ function Skills() {
                     <div className="col">
                     <FaPhp/><br></br>
                     PHP
+                    </div>
+                    <div className="col">
+                    <SiTailwindcss/><br></br>
+                    TailwindCss
                     </div>
                     
                 </div>   

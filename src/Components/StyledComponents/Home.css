@@ -24,7 +24,7 @@ span {
 .home .icons {
   position: absolute;
   top: 10%;
-  left: -2%;
+  left: -1%;
 }
 .icons .text {
   display: flex;
@@ -54,6 +54,6 @@ span {
     width: 40px;
   }
   .icons .text {
-    padding: 20%;
+    padding: 10%;
   }
 }
