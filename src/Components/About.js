@@ -33,7 +33,7 @@ function About() {
                       
                       <div className="text-wrap" >
                             <p >I am Caleb Bitiyong Duniya, a self-taught 
-                          front-end developer currently based in Kaduna Nigeria.<br></br>
+                          front-end developer currently based in Abuja Nigeria.<br></br>
                       </p>
                       </div>
                       
