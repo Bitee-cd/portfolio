@@ -21,7 +21,7 @@ function Footer() {
                         <a href="https://www.instagram.com/bi.tee/"  className="navbar-brand"><AiFillInstagram /></a> 
                         <a href="tel:07062314249"  className="navbar-brand"><AiFillPhone/></a>
                         <div className="me-3">  07062312429 </div>
-                        <div><HiLocationMarker/>Kaduna, Nigeria </div>
+                        <div><HiLocationMarker/>Abuja, Nigeria </div>
                       
                         
                     </div>
