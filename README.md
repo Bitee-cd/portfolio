@@ -2,4 +2,4 @@
  this is still a work in progress
  this shows a selected few of the works i have done
 
-link : https://www.calebduniya.netlify.app
+link : [https://www.calebduniya.netlify.app](https://calebduniya.netlify.app/)
