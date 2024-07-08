@@ -27,7 +27,7 @@ function Home() {
                        
                        <a
                        className="btn btn-outline-dark"
-                        href={resume}
+                        href='https://docs.google.com/document/d/12RL6AqO6DNaPWtUR9fVWraJ2kCEcUeWa/edit?usp=sharing&ouid=118445217862309716455&rtpof=true&sd=true'
                          download>
                            <FaCloudDownloadAlt/>  Download CV
                            </a>
